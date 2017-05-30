@@ -1,0 +1,1 @@
+X = [1;2;3];Y = [1;2;3];x = linspace(0,10);plot(X, Y, 'rx', 'MarkerSize', 10);hold on;plot(x,2*x,'g');hold on;plot(x,0.5*x,'y');hold on;plot(x,x,'b');xlabel('X');ylabel('Y');legend('dataset','\theta = 2','\theta = 0.5','\theta = 1');
